@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -53,9 +53,9 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -96,12 +96,12 @@
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
 <layer number="114" name="tPlaceRed" color="7" fill="1" visible="no" active="yes"/>
-<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -111,40 +111,40 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
-<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="134" name="silk_top" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="135" name="silk_bottom" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="138" name="EEE" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="139" name="_tKeepout" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="140" name="mbKeepout" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="142" name="mbRestrict" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="yes"/>
+<layer number="138" name="EEE" color="7" fill="1" visible="no" active="yes"/>
+<layer number="139" name="_tKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="no" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="148" name="mDocument" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="yes"/>
+<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="no" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="no" active="yes"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="no" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
-<layer number="166" name="AntennaArea" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="194" name="mSymbols" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="195" name="mNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="196" name="mValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -185,7 +185,7 @@
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -262,41 +262,9 @@
 <wire x1="40.64" y1="5.0165" x2="40.64" y2="0.127" width="0.254" layer="21"/>
 <wire x1="43.18" y1="5.0165" x2="43.18" y2="0.127" width="0.254" layer="21"/>
 <wire x1="15.24" y1="17.78" x2="15.24" y2="22.7584" width="0.254" layer="21"/>
-<wire x1="11.43" y1="21.6535" x2="11.43" y2="6.35" width="0.6096" layer="30"/>
-<wire x1="11.43" y1="6.35" x2="11.43" y2="6.223" width="0.6096" layer="30"/>
-<wire x1="13.97" y1="4.445" x2="13.97" y2="21.717" width="0.6096" layer="30"/>
-<wire x1="6.35" y1="1.27" x2="6.35" y2="3.81" width="0.6096" layer="30"/>
-<wire x1="8.89" y1="1.27" x2="8.89" y2="3.81" width="0.6096" layer="30"/>
-<wire x1="11.43" y1="3.81" x2="11.43" y2="1.27" width="0.6096" layer="30"/>
-<wire x1="13.97" y1="1.016" x2="13.97" y2="3.81" width="0.6096" layer="30"/>
-<wire x1="16.51" y1="3.81" x2="16.51" y2="1.27" width="0.6096" layer="30"/>
-<wire x1="19.05" y1="3.81" x2="19.05" y2="1.27" width="0.6096" layer="30"/>
-<wire x1="21.59" y1="1.27" x2="21.59" y2="3.81" width="0.6096" layer="30"/>
-<wire x1="24.13" y1="3.81" x2="24.13" y2="1.27" width="0.6096" layer="30"/>
-<wire x1="26.67" y1="3.81" x2="26.67" y2="1.27" width="0.6096" layer="30"/>
-<wire x1="29.21" y1="4.064" x2="29.21" y2="1.27" width="0.6096" layer="30"/>
-<wire x1="31.75" y1="3.81" x2="31.75" y2="1.27" width="0.6096" layer="30"/>
-<wire x1="39.37" y1="3.81" x2="39.37" y2="1.27" width="0.6096" layer="30"/>
-<wire x1="41.91" y1="1.27" x2="41.91" y2="3.81" width="0.6096" layer="30"/>
-<wire x1="44.45" y1="3.81" x2="44.45" y2="1.27" width="0.6096" layer="30"/>
-<wire x1="36.83" y1="1.27" x2="36.83" y2="3.81" width="0.6096" layer="30"/>
-<wire x1="34.29" y1="3.81" x2="34.29" y2="1.27" width="0.6096" layer="30"/>
-<wire x1="44.45" y1="19.05" x2="44.45" y2="21.59" width="0.6096" layer="30"/>
-<wire x1="41.91" y1="21.59" x2="41.91" y2="19.304" width="0.6096" layer="30"/>
-<wire x1="39.37" y1="19.05" x2="39.37" y2="21.844" width="0.6096" layer="30"/>
-<wire x1="36.83" y1="21.59" x2="36.83" y2="19.05" width="0.6096" layer="30"/>
-<wire x1="34.29" y1="18.796" x2="34.29" y2="21.844" width="0.6096" layer="30"/>
-<wire x1="31.75" y1="19.05" x2="31.75" y2="21.59" width="0.6096" layer="30"/>
-<wire x1="29.21" y1="21.844" x2="29.21" y2="19.05" width="0.6096" layer="30"/>
-<wire x1="26.67" y1="21.844" x2="26.67" y2="19.05" width="0.6096" layer="30"/>
-<wire x1="24.13" y1="19.05" x2="24.13" y2="21.844" width="0.6096" layer="30"/>
-<wire x1="21.59" y1="21.844" x2="21.59" y2="19.05" width="0.6096" layer="30"/>
-<wire x1="19.05" y1="18.796" x2="19.05" y2="21.844" width="0.6096" layer="30"/>
-<wire x1="16.51" y1="21.844" x2="16.51" y2="19.05" width="0.6096" layer="30"/>
 <wire x1="7.5946" y1="5.0038" x2="15.2146" y2="5.0038" width="0.254" layer="21"/>
 <wire x1="12.7" y1="5.0165" x2="10.8585" y2="5.0165" width="0.254" layer="21"/>
 <wire x1="10.16" y1="4.953" x2="10.16" y2="0.1397" width="0.254" layer="21"/>
-<wire x1="8.89" y1="3.81" x2="11.43" y2="6.35" width="0.6096" layer="30"/>
 <wire x1="11.43" y1="2.921" x2="11.43" y2="2.159" width="0.4064" layer="21"/>
 <wire x1="16.51" y1="2.921" x2="16.51" y2="2.159" width="0.4064" layer="21"/>
 <wire x1="19.05" y1="2.921" x2="19.05" y2="2.159" width="0.4064" layer="21"/>
@@ -314,12 +282,24 @@
 <wire x1="24.13" y1="20.701" x2="24.13" y2="19.939" width="0.4064" layer="21"/>
 <dimension x1="0" y1="6.35" x2="48.26" y2="2.667" x3="24.13" y3="-4.953" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="48.26" y1="2.54" x2="48.26" y2="20.193" x3="54.102" y3="11.3665" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
-<text x="4.826" y="7.747" size="1.27" layer="21" font="vector" ratio="12" rot="R90">1</text>
 <text x="4.445" y="14.351" size="1.27" layer="21" font="vector" ratio="12" rot="R90">2</text>
 <text x="48.006" y="13.843" size="1.27" layer="21" font="vector" ratio="12" rot="R90">34</text>
 <text x="48.133" y="7.112" size="1.27" layer="21" font="vector" ratio="12" rot="R90">33</text>
-<text x="14.859" y="15.748" size="1.27" layer="21" font="vector" ratio="12" rot="R90">5V</text>
-<text x="5.842" y="15.875" size="1.27" layer="21" font="vector" ratio="12" rot="R90">GND</text>
+<text x="14.859" y="17.526" size="1.27" layer="21" font="vector" ratio="12" rot="R90">5V</text>
+<text x="5.842" y="16.891" size="1.27" layer="21" font="vector" ratio="12" rot="R90">GND</text>
+<text x="24.257" y="16.891" size="1.016" layer="21" font="vector" ratio="12" align="center">WD</text>
+<text x="26.67" y="16.891" size="1.016" layer="21" font="vector" ratio="12" align="center">WG</text>
+<text x="29.337" y="16.891" size="1.016" layer="21" font="vector" ratio="12" align="center">Trk</text>
+<text x="32.004" y="16.891" size="1.016" layer="21" font="vector" ratio="12" align="center">Pr</text>
+<text x="34.417" y="16.891" size="1.016" layer="21" font="vector" ratio="12" align="center">RD</text>
+<text x="37.084" y="16.891" size="1.016" layer="21" font="vector" ratio="12" align="center">Sid</text>
+<text x="39.497" y="16.891" size="1.016" layer="21" font="vector" ratio="12" align="center">Ch</text>
+<text x="29.337" y="5.842" size="1.016" layer="21" font="vector" ratio="12" align="center">Stp</text>
+<text x="26.67" y="5.842" size="1.016" layer="21" font="vector" ratio="12" align="center">Dir</text>
+<text x="24.257" y="5.842" size="1.016" layer="21" font="vector" ratio="12" align="center">En</text>
+<text x="21.717" y="5.842" size="1.016" layer="21" font="vector" ratio="12" align="center">Sel</text>
+<text x="19.177" y="5.842" size="1.016" layer="21" font="vector" ratio="12" align="center">Idx</text>
+<text x="16.637" y="5.842" size="1.016" layer="21" font="vector" ratio="12" align="center">Den</text>
 </plain>
 <libraries>
 <library name="microbuilder">
@@ -433,214 +413,18 @@
 <rectangle x1="11.176" y1="-0.254" x2="11.684" y2="0.254" layer="51"/>
 <rectangle x1="13.716" y1="-0.254" x2="14.224" y2="0.254" layer="51"/>
 </package>
-</packages>
-</library>
-<library name="pinhead" urn="urn:adsk.eagle:library:325">
-<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="2X17" urn="urn:adsk.eagle:footprint:22393/1" library_version="4">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-21.59" y1="-1.905" x2="-20.955" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-20.955" y1="-2.54" x2="-19.685" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-19.685" y1="-2.54" x2="-19.05" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-19.05" y1="-1.905" x2="-18.415" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-18.415" y1="-2.54" x2="-17.145" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-17.145" y1="-2.54" x2="-16.51" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-16.51" y1="-1.905" x2="-15.875" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-15.875" y1="-2.54" x2="-14.605" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-14.605" y1="-2.54" x2="-13.97" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-13.97" y1="-1.905" x2="-13.335" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-13.335" y1="-2.54" x2="-12.065" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-12.065" y1="-2.54" x2="-11.43" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-11.43" y1="-1.905" x2="-10.795" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-10.795" y1="-2.54" x2="-9.525" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-9.525" y1="-2.54" x2="-8.89" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="-1.905" x2="-8.255" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-8.255" y1="-2.54" x2="-6.985" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="-2.54" x2="-6.35" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-21.59" y1="-1.905" x2="-21.59" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-21.59" y1="1.905" x2="-20.955" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-20.955" y1="2.54" x2="-19.685" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-19.685" y1="2.54" x2="-19.05" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-19.05" y1="1.905" x2="-18.415" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-18.415" y1="2.54" x2="-17.145" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-17.145" y1="2.54" x2="-16.51" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-16.51" y1="1.905" x2="-15.875" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-15.875" y1="2.54" x2="-14.605" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-14.605" y1="2.54" x2="-13.97" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-13.97" y1="1.905" x2="-13.335" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-13.335" y1="2.54" x2="-12.065" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-12.065" y1="2.54" x2="-11.43" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-11.43" y1="1.905" x2="-10.795" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-10.795" y1="2.54" x2="-9.525" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-9.525" y1="2.54" x2="-8.89" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="1.905" x2="-8.255" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-8.255" y1="2.54" x2="-6.985" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="2.54" x2="-6.35" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="1.905" x2="-5.715" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="2.54" x2="-4.445" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="2.54" x2="-3.81" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="1.905" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="2.54" x2="-1.27" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="2.54" x2="1.27" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.905" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="1.905" x2="4.445" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="2.54" x2="5.715" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="2.54" x2="6.35" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="1.905" x2="6.985" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="2.54" x2="8.255" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="8.89" y1="1.905" x2="8.255" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="8.89" y1="1.905" x2="9.525" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="10.795" y1="2.54" x2="9.525" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="10.795" y1="2.54" x2="11.43" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="11.43" y1="1.905" x2="12.065" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="13.335" y1="2.54" x2="12.065" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="13.335" y1="2.54" x2="13.97" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="13.97" y1="1.905" x2="14.605" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="15.875" y1="2.54" x2="14.605" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="15.875" y1="2.54" x2="16.51" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="16.51" y1="1.905" x2="17.145" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="18.415" y1="2.54" x2="17.145" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="18.415" y1="2.54" x2="19.05" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="19.05" y1="1.905" x2="19.685" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="20.955" y1="2.54" x2="19.685" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="20.955" y1="2.54" x2="21.59" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="21.59" y1="-1.905" x2="20.955" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="20.955" y1="-2.54" x2="19.685" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="19.05" y1="-1.905" x2="19.685" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="19.05" y1="-1.905" x2="18.415" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="17.145" y1="-2.54" x2="18.415" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="17.145" y1="-2.54" x2="16.51" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="16.51" y1="-1.905" x2="15.875" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="14.605" y1="-2.54" x2="15.875" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="14.605" y1="-2.54" x2="13.97" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="13.97" y1="-1.905" x2="13.335" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="13.335" y1="-2.54" x2="12.065" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="11.43" y1="-1.905" x2="12.065" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="11.43" y1="-1.905" x2="10.795" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="10.795" y1="-2.54" x2="9.525" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="8.89" y1="-1.905" x2="9.525" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="8.89" y1="-1.905" x2="8.255" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="8.255" y1="-2.54" x2="6.985" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="-1.905" x2="6.985" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="-1.905" x2="5.715" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="-2.54" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-1.905" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-1.905" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-2.54" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.905" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.905" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-2.54" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-1.905" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-1.905" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-2.54" x2="-5.715" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="-1.905" x2="-5.715" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-19.05" y1="1.905" x2="-19.05" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-16.51" y1="1.905" x2="-16.51" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-13.97" y1="1.905" x2="-13.97" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-11.43" y1="1.905" x2="-11.43" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="1.905" x2="-8.89" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="1.905" x2="-6.35" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="1.905" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="1.905" x2="6.35" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="8.89" y1="1.905" x2="8.89" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="11.43" y1="1.905" x2="11.43" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="13.97" y1="1.905" x2="13.97" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="16.51" y1="1.905" x2="16.51" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="19.05" y1="1.905" x2="19.05" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="21.59" y1="1.905" x2="21.59" y2="-1.905" width="0.1524" layer="21"/>
-<pad name="1" x="-20.32" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="2" x="-20.32" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="3" x="-17.78" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="4" x="-17.78" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="5" x="-15.24" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="6" x="-15.24" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="7" x="-12.7" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="8" x="-12.7" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="9" x="-10.16" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="10" x="-10.16" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="11" x="-7.62" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="12" x="-7.62" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="13" x="-5.08" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="14" x="-5.08" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="15" x="-2.54" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="16" x="-2.54" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="17" x="0" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="18" x="0" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="19" x="2.54" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="20" x="2.54" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="21" x="5.08" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="22" x="5.08" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="23" x="7.62" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="24" x="7.62" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="25" x="10.16" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="26" x="10.16" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="27" x="12.7" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="28" x="12.7" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="29" x="15.24" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="30" x="15.24" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="31" x="17.78" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="32" x="17.78" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="33" x="20.32" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="34" x="20.32" y="1.27" drill="1.016" shape="octagon"/>
-<text x="-21.59" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-21.59" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-20.574" y1="-1.524" x2="-20.066" y2="-1.016" layer="51"/>
-<rectangle x1="-20.574" y1="1.016" x2="-20.066" y2="1.524" layer="51"/>
-<rectangle x1="-18.034" y1="1.016" x2="-17.526" y2="1.524" layer="51"/>
-<rectangle x1="-18.034" y1="-1.524" x2="-17.526" y2="-1.016" layer="51"/>
-<rectangle x1="-15.494" y1="1.016" x2="-14.986" y2="1.524" layer="51"/>
-<rectangle x1="-15.494" y1="-1.524" x2="-14.986" y2="-1.016" layer="51"/>
-<rectangle x1="-12.954" y1="1.016" x2="-12.446" y2="1.524" layer="51"/>
-<rectangle x1="-10.414" y1="1.016" x2="-9.906" y2="1.524" layer="51"/>
-<rectangle x1="-7.874" y1="1.016" x2="-7.366" y2="1.524" layer="51"/>
-<rectangle x1="-12.954" y1="-1.524" x2="-12.446" y2="-1.016" layer="51"/>
-<rectangle x1="-10.414" y1="-1.524" x2="-9.906" y2="-1.016" layer="51"/>
-<rectangle x1="-7.874" y1="-1.524" x2="-7.366" y2="-1.016" layer="51"/>
-<rectangle x1="-5.334" y1="1.016" x2="-4.826" y2="1.524" layer="51"/>
-<rectangle x1="-5.334" y1="-1.524" x2="-4.826" y2="-1.016" layer="51"/>
-<rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
-<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
-<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
-<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
-<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
-<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
-<rectangle x1="4.826" y1="1.016" x2="5.334" y2="1.524" layer="51"/>
-<rectangle x1="4.826" y1="-1.524" x2="5.334" y2="-1.016" layer="51"/>
-<rectangle x1="7.366" y1="1.016" x2="7.874" y2="1.524" layer="51"/>
-<rectangle x1="7.366" y1="-1.524" x2="7.874" y2="-1.016" layer="51"/>
-<rectangle x1="9.906" y1="1.016" x2="10.414" y2="1.524" layer="51"/>
-<rectangle x1="9.906" y1="-1.524" x2="10.414" y2="-1.016" layer="51"/>
-<rectangle x1="12.446" y1="1.016" x2="12.954" y2="1.524" layer="51"/>
-<rectangle x1="12.446" y1="-1.524" x2="12.954" y2="-1.016" layer="51"/>
-<rectangle x1="14.986" y1="1.016" x2="15.494" y2="1.524" layer="51"/>
-<rectangle x1="14.986" y1="-1.524" x2="15.494" y2="-1.016" layer="51"/>
-<rectangle x1="17.526" y1="1.016" x2="18.034" y2="1.524" layer="51"/>
-<rectangle x1="17.526" y1="-1.524" x2="18.034" y2="-1.016" layer="51"/>
-<rectangle x1="20.066" y1="1.016" x2="20.574" y2="1.524" layer="51"/>
-<rectangle x1="20.066" y1="-1.524" x2="20.574" y2="-1.016" layer="51"/>
+<package name="0805-NO">
+<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
+<smd name="1" x="-0.95" y="0" dx="1.24" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.24" dy="1.5" layer="1"/>
+<text x="2.032" y="-0.127" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="2.032" y="-0.762" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
+<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.3048" layer="21"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="2X17" urn="urn:adsk.eagle:package:22495/2" type="model" library_version="4">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="2X17"/>
-</packageinstances>
-</package3d>
-</packages3d>
 </library>
 <library name="adafruit_electromech">
 <packages>
@@ -656,6 +440,238 @@
 <pad name="2" x="-1.7" y="0" drill="1" diameter="2.1844"/>
 <text x="-3" y="3.89" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
 <text x="-3.048" y="-3.048" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="2X17_FLOPPY_IDC">
+<wire x1="-1.905" y1="21.59" x2="-2.54" y2="20.955" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="19.685" x2="-1.905" y2="19.05" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="19.05" x2="-2.54" y2="18.415" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="17.145" x2="-1.905" y2="16.51" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="16.51" x2="-2.54" y2="15.875" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="14.605" x2="-1.905" y2="13.97" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="13.97" x2="-2.54" y2="13.335" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="12.065" x2="-1.905" y2="11.43" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="11.43" x2="-2.54" y2="10.795" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="9.525" x2="-1.905" y2="8.89" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="8.89" x2="-2.54" y2="8.255" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="6.985" x2="-1.905" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="21.59" x2="1.905" y2="21.59" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="21.59" x2="2.54" y2="20.955" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="19.685" x2="1.905" y2="19.05" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="19.05" x2="2.54" y2="18.415" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="17.145" x2="1.905" y2="16.51" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="16.51" x2="2.54" y2="15.875" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="14.605" x2="1.905" y2="13.97" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="13.97" x2="2.54" y2="13.335" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="12.065" x2="1.905" y2="11.43" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="11.43" x2="2.54" y2="10.795" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="9.525" x2="1.905" y2="8.89" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="8.89" x2="2.54" y2="8.255" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="6.985" x2="1.905" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="6.35" x2="2.54" y2="5.715" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="4.445" x2="1.905" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="3.81" x2="2.54" y2="3.175" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-3.175" x2="1.905" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-3.81" x2="2.54" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-5.715" x2="1.905" y2="-6.35" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-6.35" x2="2.54" y2="-6.985" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-8.89" x2="2.54" y2="-8.255" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-8.89" x2="2.54" y2="-9.525" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-10.795" x2="1.905" y2="-11.43" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-11.43" x2="2.54" y2="-12.065" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-13.335" x2="2.54" y2="-12.065" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-13.335" x2="-2.54" y2="-12.065" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-11.43" x2="-2.54" y2="-12.065" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-11.43" x2="-2.54" y2="-10.795" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-8.89" x2="-2.54" y2="-9.525" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-8.89" x2="-2.54" y2="-8.255" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-6.35" x2="-2.54" y2="-6.985" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-6.35" x2="-2.54" y2="-5.715" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-3.81" x2="-2.54" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-3.81" x2="-2.54" y2="-3.175" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="3.81" x2="-2.54" y2="3.175" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="3.81" x2="-2.54" y2="4.445" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="6.35" x2="-2.54" y2="5.715" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="19.05" x2="-1.905" y2="19.05" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="16.51" x2="-1.905" y2="16.51" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="13.97" x2="-1.905" y2="13.97" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="11.43" x2="-1.905" y2="11.43" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="8.89" x2="-1.905" y2="8.89" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="6.35" x2="-1.905" y2="6.35" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="3.81" x2="-1.905" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-3.81" x2="-1.905" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-6.35" x2="-1.905" y2="-6.35" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-8.89" x2="-1.905" y2="-8.89" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-11.43" x2="-1.905" y2="-11.43" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="20.32" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="2" x="1.27" y="20.32" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="3" x="-1.27" y="17.78" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="4" x="1.27" y="17.78" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="5" x="-1.27" y="15.24" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="6" x="1.27" y="15.24" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="7" x="-1.27" y="12.7" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="8" x="1.27" y="12.7" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="9" x="-1.27" y="10.16" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="10" x="1.27" y="10.16" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="11" x="-1.27" y="7.62" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="12" x="1.27" y="7.62" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="13" x="-1.27" y="5.08" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="14" x="1.27" y="5.08" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="15" x="-1.27" y="2.54" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="16" x="1.27" y="2.54" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="17" x="-1.27" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="18" x="1.27" y="0" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="19" x="-1.27" y="-2.54" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="20" x="1.27" y="-2.54" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="21" x="-1.27" y="-5.08" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="22" x="1.27" y="-5.08" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="23" x="-1.27" y="-7.62" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="24" x="1.27" y="-7.62" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="25" x="-1.27" y="-10.16" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="26" x="1.27" y="-10.16" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="27" x="-1.27" y="-12.7" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="28" x="1.27" y="-12.7" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<rectangle x1="-1.524" y1="20.066" x2="-1.016" y2="20.574" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="20.066" x2="1.524" y2="20.574" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="17.526" x2="1.524" y2="18.034" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="17.526" x2="-1.016" y2="18.034" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="14.986" x2="1.524" y2="15.494" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="14.986" x2="-1.016" y2="15.494" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="12.446" x2="1.524" y2="12.954" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="9.906" x2="1.524" y2="10.414" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="7.366" x2="1.524" y2="7.874" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="12.446" x2="-1.016" y2="12.954" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="9.906" x2="-1.016" y2="10.414" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="7.366" x2="-1.016" y2="7.874" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="4.826" x2="1.524" y2="5.334" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="4.826" x2="-1.016" y2="5.334" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="2.286" x2="1.524" y2="2.794" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="2.286" x2="-1.016" y2="2.794" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="-2.794" x2="1.524" y2="-2.286" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="-2.794" x2="-1.016" y2="-2.286" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="-5.334" x2="1.524" y2="-4.826" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="-5.334" x2="-1.016" y2="-4.826" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="-7.874" x2="1.524" y2="-7.366" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="-7.874" x2="-1.016" y2="-7.366" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="-10.414" x2="1.524" y2="-9.906" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="-10.414" x2="-1.016" y2="-9.906" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="-12.954" x2="1.524" y2="-12.446" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="-12.954" x2="-1.016" y2="-12.446" layer="51" rot="R270"/>
+<wire x1="-2.538" y1="21.77" x2="2.462" y2="21.77" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="-2.54" y1="20.955" x2="-2.54" y2="19.685" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="18.415" x2="-2.54" y2="17.145" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="15.875" x2="-2.54" y2="14.605" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="13.335" x2="-2.54" y2="12.065" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="10.795" x2="-2.54" y2="9.525" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="8.255" x2="-2.54" y2="6.985" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="20.955" x2="2.54" y2="19.685" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="18.415" x2="2.54" y2="17.145" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="15.875" x2="2.54" y2="14.605" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="13.335" x2="2.54" y2="12.065" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="10.795" x2="2.54" y2="9.525" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="8.255" x2="2.54" y2="6.985" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="5.715" x2="2.54" y2="4.445" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="3.175" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="-3.175" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-4.445" x2="2.54" y2="-5.715" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-6.985" x2="2.54" y2="-8.255" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-10.795" x2="2.54" y2="-9.525" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-10.795" x2="-2.54" y2="-9.525" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-8.255" x2="-2.54" y2="-6.985" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-5.715" x2="-2.54" y2="-4.445" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-3.175" x2="-2.54" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-2.54" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="3.175" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="4.445" x2="-2.54" y2="5.715" width="0.2032" layer="21"/>
+<text x="5.588" y="19.812" size="1.27" layer="27">DENSITY</text>
+<text x="5.588" y="17.272" size="1.27" layer="27">INUSE</text>
+<text x="5.588" y="14.732" size="1.27" layer="27">SELECT3</text>
+<text x="5.588" y="12.192" size="1.27" layer="27">INDEX</text>
+<text x="5.588" y="9.652" size="1.27" layer="27">SELECT0</text>
+<text x="5.588" y="7.112" size="1.27" layer="27">SELECT1</text>
+<text x="5.588" y="4.572" size="1.27" layer="27">SELECT2</text>
+<text x="5.588" y="2.032" size="1.27" layer="27">MOTORON</text>
+<text x="5.588" y="-8.128" size="1.27" layer="27">WRITEGATE</text>
+<text x="5.588" y="-10.922" size="1.27" layer="27">TRACK00</text>
+<text x="5.588" y="-13.208" size="1.27" layer="27">WRITEPROT</text>
+<text x="5.588" y="-15.748" size="1.27" layer="27">READDATA</text>
+<text x="5.588" y="-18.288" size="1.27" layer="27">SIDESEL</text>
+<text x="-7.112" y="2.032" size="1.27" layer="27" rot="R270">GND</text>
+<wire x1="-2.9718" y1="20.7518" x2="-2.9718" y2="19.8882" width="0.2032" layer="21"/>
+<wire x1="-2.9718" y1="19.8882" x2="-3.81" y2="20.32" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="20.32" x2="-2.9718" y2="20.7518" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="20.32" x2="-3.556" y2="20.32" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="-25.39" x2="4.5" y2="25.39" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="25.39" x2="-4.5" y2="25.39" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="-25.39" x2="-4.5" y2="-25.39" width="0.2032" layer="21"/>
+<wire x1="3.7" y1="-24.59" x2="3.7" y2="24.59" width="0.2032" layer="51"/>
+<wire x1="-3.7" y1="-24.59" x2="-3.7" y2="24.59" width="0.2032" layer="51"/>
+<wire x1="3.7" y1="24.59" x2="-3.7" y2="24.59" width="0.2032" layer="51"/>
+<wire x1="3.7" y1="-24.59" x2="-3.7" y2="-24.59" width="0.2032" layer="51"/>
+<wire x1="-4.5" y1="25.39" x2="-4.5" y2="2.25" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="-2.25" x2="-4.5" y2="-25.39" width="0.2032" layer="21"/>
+<wire x1="-3.5" y1="2.25" x2="-3.5" y2="-2.25" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="2.25" x2="-3.5" y2="2.25" width="0.2032" layer="21"/>
+<wire x1="-3.5" y1="-2.25" x2="-4.5" y2="-2.25" width="0.2032" layer="21"/>
+<text x="-3.81" y="26.67" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="24.003" size="1.524" layer="21" ratio="10" rot="R270">1</text>
+<text x="-2.54" y="-26.67" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.5306" y1="20.193" x2="-3.0226" y2="20.447" layer="21" rot="R270"/>
+<rectangle x1="-3.2766" y1="20.447" x2="-2.8956" y2="20.574" layer="21" rot="R270"/>
+<rectangle x1="-3.2766" y1="20.066" x2="-2.8956" y2="20.193" layer="21" rot="R270"/>
+<rectangle x1="-3.6068" y1="20.193" x2="-3.3528" y2="20.447" layer="21" rot="R270"/>
+<text x="5.588" y="-20.828" size="1.27" layer="27">READY</text>
+<wire x1="2.54" y1="-13.335" x2="1.905" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-13.97" x2="2.54" y2="-14.605" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-16.51" x2="2.54" y2="-15.875" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-16.51" x2="2.54" y2="-17.145" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-18.415" x2="1.905" y2="-19.05" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-19.05" x2="2.54" y2="-19.685" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-20.955" x2="2.54" y2="-19.685" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-20.955" x2="1.905" y2="-21.59" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-21.59" x2="-2.54" y2="-20.955" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-20.955" x2="-2.54" y2="-19.685" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-19.05" x2="-2.54" y2="-19.685" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-19.05" x2="-2.54" y2="-18.415" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-16.51" x2="-2.54" y2="-17.145" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-16.51" x2="-2.54" y2="-15.875" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-13.97" x2="-2.54" y2="-14.605" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-13.97" x2="-2.54" y2="-13.335" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-13.97" x2="-1.905" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-16.51" x2="-1.905" y2="-16.51" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-19.05" x2="-1.905" y2="-19.05" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-21.59" x2="-1.905" y2="-21.59" width="0.1524" layer="21"/>
+<pad name="29" x="-1.27" y="-15.24" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="30" x="1.27" y="-15.24" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="31" x="-1.27" y="-17.78" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="32" x="1.27" y="-17.78" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="33" x="-1.27" y="-20.32" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<pad name="34" x="1.27" y="-20.32" drill="1.016" diameter="1.778" shape="octagon" rot="R270"/>
+<rectangle x1="1.016" y1="-15.494" x2="1.524" y2="-14.986" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="-15.494" x2="-1.016" y2="-14.986" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="-18.034" x2="1.524" y2="-17.526" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="-18.034" x2="-1.016" y2="-17.526" layer="51" rot="R270"/>
+<rectangle x1="1.016" y1="-20.574" x2="1.524" y2="-20.066" layer="51" rot="R270"/>
+<rectangle x1="-1.524" y1="-20.574" x2="-1.016" y2="-20.066" layer="51" rot="R270"/>
+<wire x1="2.54" y1="-14.605" x2="2.54" y2="-15.875" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-18.415" x2="2.54" y2="-17.145" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-18.415" x2="-2.54" y2="-17.145" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-15.875" x2="-2.54" y2="-14.605" width="0.2032" layer="21"/>
+<text x="5.588" y="-5.588" size="1.27" layer="27">WRITEDATA</text>
+<text x="5.588" y="-3.048" size="1.27" layer="27">STEP</text>
+<text x="5.588" y="-0.508" size="1.27" layer="27">DIRECTION</text>
 </package>
 </packages>
 </library>
@@ -839,14 +855,17 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="15.1638" y="20.8788" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="15.24" y="15.875" size="0.4064" layer="27" ratio="10"/>
 </element>
-<element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X17" package3d_urn="urn:adsk.eagle:package:22495/2" value="" x="25.4" y="11.43" smashed="yes">
-<attribute name="NAME" x="3.81" y="14.605" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="0" x="25.4" y="11.43" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="3.81" y="6.985" size="1.27" layer="27"/>
+<element name="X1" library="adafruit_electromech" package="TERMBLOCK_1X2-3.5MM" value="3.5mm" x="9.779" y="19.685" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.779" y="15.795" size="0.8128" layer="25" ratio="18" rot="R180"/>
+<attribute name="VALUE" x="12.827" y="22.733" size="0.4064" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="X1" library="adafruit_electromech" package="TERMBLOCK_1X2-3.5MM" value="" x="9.779" y="19.177" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.779" y="15.287" size="0.8128" layer="25" ratio="18" rot="R180"/>
-<attribute name="VALUE" x="12.827" y="22.225" size="0.4064" layer="27" ratio="10" rot="R180"/>
+<element name="FDD1" library="adafruit_electromech" package="2X17_FLOPPY_IDC" value="FLOPPY_IDC_SHROUDED" x="25.4" y="11.43" smashed="yes" rot="R90">
+<attribute name="NAME" x="-1.27" y="7.62" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="52.07" y="8.89" size="0.8128" layer="27" rot="R90"/>
+</element>
+<element name="R1" library="microbuilder" package="0805-NO" value="2.2K" x="40.005" y="5.969" smashed="yes" rot="R180">
+<attribute name="NAME" x="38.227" y="6.096" size="0.8128" layer="25" font="vector" ratio="18" rot="R180"/>
+<attribute name="VALUE" x="38.227" y="6.731" size="0.4064" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 </elements>
 <signals>
@@ -858,23 +877,6 @@ einem neuen Namen ab.</description>
 <signal name="GND">
 <contactref element="MS1" pad="4"/>
 <contactref element="JP3" pad="13"/>
-<contactref element="JP2" pad="1"/>
-<contactref element="JP2" pad="33"/>
-<contactref element="JP2" pad="3"/>
-<contactref element="JP2" pad="5"/>
-<contactref element="JP2" pad="7"/>
-<contactref element="JP2" pad="9"/>
-<contactref element="JP2" pad="11"/>
-<contactref element="JP2" pad="13"/>
-<contactref element="JP2" pad="15"/>
-<contactref element="JP2" pad="17"/>
-<contactref element="JP2" pad="19"/>
-<contactref element="JP2" pad="21"/>
-<contactref element="JP2" pad="23"/>
-<contactref element="JP2" pad="25"/>
-<contactref element="JP2" pad="27"/>
-<contactref element="JP2" pad="29"/>
-<contactref element="JP2" pad="31"/>
 <wire x1="5.08" y1="10.16" x2="7.62" y2="10.16" width="0.4064" layer="16"/>
 <wire x1="7.62" y1="10.16" x2="10.16" y2="10.16" width="0.4064" layer="16"/>
 <wire x1="12.7" y1="10.16" x2="15.24" y2="10.16" width="0.4064" layer="16"/>
@@ -898,23 +900,35 @@ einem neuen Namen ab.</description>
 <wire x1="10.9855" y1="6.7945" x2="10.16" y2="7.62" width="0.4064" layer="1"/>
 <wire x1="10.16" y1="7.62" x2="10.16" y2="10.16" width="0.4064" layer="1"/>
 <contactref element="X1" pad="1"/>
-<wire x1="7.979" y1="19.177" x2="7.979" y2="17.653" width="0.6096" layer="1"/>
+<wire x1="7.979" y1="19.685" x2="7.979" y2="17.653" width="0.6096" layer="1"/>
 <wire x1="7.979" y1="17.653" x2="6.836" y2="16.51" width="0.6096" layer="1"/>
 <wire x1="2.286" y1="15.621" x2="2.286" y2="8.89" width="0.6096" layer="1"/>
 <wire x1="2.286" y1="8.89" x2="4.3815" y2="6.7945" width="0.6096" layer="1"/>
 <wire x1="4.3815" y1="6.7945" x2="10.9855" y2="6.7945" width="0.6096" layer="1"/>
 <wire x1="6.836" y1="16.51" x2="3.175" y2="16.51" width="0.6096" layer="1"/>
 <wire x1="3.175" y1="16.51" x2="2.286" y2="15.621" width="0.6096" layer="1"/>
+<contactref element="FDD1" pad="11"/>
+<contactref element="FDD1" pad="31"/>
+<contactref element="FDD1" pad="13"/>
+<contactref element="FDD1" pad="9"/>
+<contactref element="FDD1" pad="27"/>
+<contactref element="FDD1" pad="15"/>
+<contactref element="FDD1" pad="25"/>
+<contactref element="FDD1" pad="23"/>
+<contactref element="FDD1" pad="1"/>
+<contactref element="FDD1" pad="5"/>
+<contactref element="FDD1" pad="3"/>
+<contactref element="FDD1" pad="7"/>
+<contactref element="FDD1" pad="17"/>
+<contactref element="FDD1" pad="21"/>
+<contactref element="FDD1" pad="29"/>
+<contactref element="FDD1" pad="19"/>
+<contactref element="FDD1" pad="33"/>
 </signal>
 <signal name="AREF">
 <contactref element="MS1" pad="3"/>
 <contactref element="JP3" pad="14"/>
 <wire x1="11.43" y1="3.81" x2="11.43" y2="1.27" width="0.4064" layer="1"/>
-</signal>
-<signal name="3V">
-<contactref element="MS1" pad="2"/>
-<contactref element="JP3" pad="15"/>
-<wire x1="8.89" y1="1.27" x2="8.89" y2="3.81" width="0.4064" layer="1"/>
 </signal>
 <signal name="RESET">
 <contactref element="MS1" pad="1"/>
@@ -925,7 +939,6 @@ einem neuen Namen ab.</description>
 <contactref element="MS1" pad="28"/>
 <contactref element="JP1" pad="1"/>
 <wire x1="16.51" y1="21.59" x2="16.51" y2="19.05" width="0.4064" layer="1"/>
-<wire x1="16.51" y1="19.05" x2="16.51" y2="18.288" width="0.4064" layer="1"/>
 </signal>
 <signal name="EN">
 <contactref element="MS1" pad="27"/>
@@ -937,7 +950,7 @@ einem neuen Namen ab.</description>
 <contactref element="JP1" pad="3"/>
 <wire x1="21.59" y1="21.59" x2="21.59" y2="19.05" width="0.4064" layer="1"/>
 <contactref element="X1" pad="2"/>
-<wire x1="11.479" y1="19.177" x2="11.479" y2="17.604" width="0.4064" layer="1"/>
+<wire x1="11.479" y1="19.685" x2="11.479" y2="17.604" width="0.4064" layer="1"/>
 <wire x1="11.479" y1="17.604" x2="12.319" y2="16.764" width="0.4064" layer="1"/>
 <wire x1="12.319" y1="16.764" x2="20.32" y2="16.764" width="0.4064" layer="1"/>
 <wire x1="21.59" y1="18.034" x2="21.59" y2="19.05" width="0.4064" layer="1"/>
@@ -979,111 +992,127 @@ einem neuen Namen ab.</description>
 <wire x1="44.45" y1="19.05" x2="44.45" y2="21.59" width="0.4064" layer="1"/>
 </signal>
 <signal name="DENSITY">
-<contactref element="JP2" pad="2"/>
 <contactref element="MS1" pad="5"/>
 <contactref element="JP3" pad="12"/>
 <wire x1="16.51" y1="3.81" x2="16.51" y2="1.27" width="0.4064" layer="1"/>
-<wire x1="5.08" y1="12.7" x2="6.35" y2="11.43" width="0.4064" layer="1"/>
-<wire x1="6.35" y1="11.43" x2="11.049" y2="11.43" width="0.4064" layer="1"/>
-<wire x1="11.049" y1="11.43" x2="11.43" y2="11.049" width="0.4064" layer="1"/>
-<wire x1="11.43" y1="8.89" x2="16.51" y2="3.81" width="0.4064" layer="1"/>
-<wire x1="11.43" y1="11.049" x2="11.43" y2="8.89" width="0.4064" layer="1"/>
+<wire x1="5.08" y1="12.7" x2="6.35" y2="11.43" width="0.254" layer="1"/>
+<wire x1="6.35" y1="11.43" x2="11.049" y2="11.43" width="0.254" layer="1"/>
+<wire x1="11.049" y1="11.43" x2="11.43" y2="11.049" width="0.254" layer="1"/>
+<wire x1="11.43" y1="8.89" x2="16.51" y2="3.81" width="0.254" layer="1"/>
+<wire x1="11.43" y1="11.049" x2="11.43" y2="8.89" width="0.254" layer="1"/>
+<contactref element="FDD1" pad="2"/>
 </signal>
 <signal name="INDEX">
-<contactref element="JP2" pad="8"/>
 <contactref element="MS1" pad="6"/>
 <contactref element="JP3" pad="11"/>
 <wire x1="19.05" y1="1.27" x2="19.05" y2="3.81" width="0.4064" layer="1"/>
-<wire x1="12.7" y1="12.7" x2="13.97" y2="11.43" width="0.4064" layer="1"/>
-<wire x1="13.97" y1="11.43" x2="16.256" y2="11.43" width="0.4064" layer="1"/>
-<wire x1="16.256" y1="11.43" x2="16.5608" y2="11.1252" width="0.4064" layer="1"/>
-<wire x1="16.5608" y1="11.1252" x2="16.5608" y2="9.6549875" width="0.4064" layer="1"/>
-<wire x1="19.05" y1="7.1657875" x2="19.05" y2="3.81" width="0.4064" layer="1"/>
-<wire x1="16.5608" y1="9.6549875" x2="19.05" y2="7.1657875" width="0.4064" layer="1"/>
+<wire x1="16.5608" y1="11.1252" x2="16.256" y2="11.43" width="0.254" layer="1"/>
+<wire x1="16.5608" y1="11.1252" x2="16.5608" y2="9.6549875" width="0.254" layer="1"/>
+<wire x1="19.05" y1="7.1657875" x2="19.05" y2="3.81" width="0.254" layer="1"/>
+<wire x1="16.5608" y1="9.6549875" x2="19.05" y2="7.1657875" width="0.254" layer="1"/>
+<contactref element="FDD1" pad="6"/>
+<wire x1="10.668" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="1"/>
+<wire x1="16.256" y1="11.43" x2="11.938" y2="11.43" width="0.254" layer="1"/>
+<wire x1="11.938" y1="11.43" x2="10.668" y2="12.7" width="0.254" layer="1"/>
 </signal>
 <signal name="SELECT">
-<contactref element="JP2" pad="12"/>
 <contactref element="MS1" pad="7"/>
 <contactref element="JP3" pad="10"/>
 <wire x1="21.59" y1="3.81" x2="21.59" y2="1.27" width="0.4064" layer="1"/>
-<wire x1="17.78" y1="12.7" x2="19.1008" y2="11.3792" width="0.4064" layer="1"/>
-<wire x1="19.1008" y1="11.3792" x2="20.8250125" y2="11.3792" width="0.4064" layer="1"/>
-<wire x1="20.8250125" y1="11.3792" x2="21.59" y2="10.6142125" width="0.4064" layer="1"/>
-<wire x1="21.59" y1="10.6142125" x2="21.59" y2="3.81" width="0.4064" layer="1"/>
+<wire x1="17.78" y1="12.7" x2="19.1008" y2="11.3792" width="0.254" layer="1"/>
+<wire x1="19.1008" y1="11.3792" x2="20.8250125" y2="11.3792" width="0.254" layer="1"/>
+<wire x1="20.8250125" y1="11.3792" x2="21.59" y2="10.6142125" width="0.254" layer="1"/>
+<wire x1="21.59" y1="10.6142125" x2="21.59" y2="3.81" width="0.254" layer="1"/>
+<contactref element="FDD1" pad="12"/>
 </signal>
 <signal name="ENABLE">
-<contactref element="JP2" pad="16"/>
 <contactref element="MS1" pad="8"/>
 <contactref element="JP3" pad="9"/>
 <wire x1="24.13" y1="1.27" x2="24.13" y2="3.81" width="0.4064" layer="1"/>
-<wire x1="22.86" y1="12.7" x2="24.13" y2="11.43" width="0.4064" layer="1"/>
-<wire x1="24.13" y1="11.43" x2="24.13" y2="3.81" width="0.4064" layer="1"/>
+<wire x1="22.86" y1="12.7" x2="24.13" y2="11.43" width="0.254" layer="1"/>
+<wire x1="24.13" y1="11.43" x2="24.13" y2="3.81" width="0.254" layer="1"/>
+<contactref element="FDD1" pad="16"/>
 </signal>
 <signal name="DIRECTION">
-<contactref element="JP2" pad="18"/>
 <contactref element="MS1" pad="9"/>
 <contactref element="JP3" pad="8"/>
 <wire x1="26.67" y1="1.27" x2="26.67" y2="3.683" width="0.4064" layer="1"/>
 <wire x1="26.67" y1="3.683" x2="26.67" y2="3.81" width="0.4064" layer="1"/>
-<wire x1="25.4" y1="12.7" x2="26.67" y2="11.43" width="0.4064" layer="1"/>
-<wire x1="26.67" y1="11.43" x2="26.67" y2="3.683" width="0.4064" layer="1"/>
+<wire x1="25.4" y1="12.7" x2="26.67" y2="11.43" width="0.254" layer="1"/>
+<wire x1="26.67" y1="11.43" x2="26.67" y2="3.683" width="0.254" layer="1"/>
+<contactref element="FDD1" pad="18"/>
 </signal>
 <signal name="STEP">
-<contactref element="JP2" pad="20"/>
 <contactref element="MS1" pad="10"/>
 <contactref element="JP3" pad="7"/>
 <wire x1="29.21" y1="1.27" x2="29.21" y2="3.81" width="0.4064" layer="1"/>
-<wire x1="27.94" y1="12.7" x2="29.21" y2="11.43" width="0.4064" layer="1"/>
-<wire x1="29.21" y1="11.43" x2="29.21" y2="3.81" width="0.4064" layer="1"/>
+<wire x1="27.94" y1="12.7" x2="29.21" y2="11.43" width="0.254" layer="1"/>
+<wire x1="29.21" y1="11.43" x2="29.21" y2="3.81" width="0.254" layer="1"/>
+<contactref element="FDD1" pad="20"/>
 </signal>
 <signal name="TRACK0">
-<contactref element="JP2" pad="26"/>
 <contactref element="MS1" pad="23"/>
 <contactref element="JP1" pad="6"/>
 <wire x1="29.21" y1="21.59" x2="29.21" y2="19.05" width="0.4064" layer="1"/>
-<wire x1="29.21" y1="19.05" x2="35.56" y2="12.7" width="0.4064" layer="1"/>
+<wire x1="29.21" y1="19.05" x2="35.56" y2="12.7" width="0.254" layer="1"/>
+<contactref element="FDD1" pad="26"/>
 </signal>
 <signal name="READDATA">
-<contactref element="JP2" pad="30"/>
 <contactref element="MS1" pad="21"/>
 <contactref element="JP1" pad="8"/>
 <wire x1="34.29" y1="19.05" x2="34.29" y2="21.59" width="0.4064" layer="1"/>
-<wire x1="34.29" y1="19.05" x2="40.64" y2="12.7" width="0.4064" layer="1"/>
+<wire x1="34.29" y1="19.05" x2="40.64" y2="12.7" width="0.254" layer="1"/>
+<contactref element="FDD1" pad="30"/>
+<contactref element="R1" pad="1"/>
+<wire x1="40.64" y1="12.7" x2="41.91" y2="11.43" width="0.254" layer="1"/>
+<wire x1="41.91" y1="7.024" x2="40.955" y2="5.969" width="0.254" layer="1"/>
+<wire x1="41.91" y1="11.43" x2="41.91" y2="7.024" width="0.254" layer="1"/>
 </signal>
 <signal name="SIDE">
-<contactref element="JP2" pad="32"/>
 <contactref element="MS1" pad="20"/>
 <contactref element="JP1" pad="9"/>
 <wire x1="36.83" y1="21.59" x2="36.83" y2="19.05" width="0.4064" layer="1"/>
-<wire x1="36.83" y1="19.05" x2="43.18" y2="12.7" width="0.4064" layer="1"/>
+<wire x1="36.83" y1="19.05" x2="43.18" y2="12.7" width="0.254" layer="1"/>
+<contactref element="FDD1" pad="32"/>
 </signal>
 <signal name="CHANGE">
-<contactref element="JP2" pad="34"/>
 <contactref element="MS1" pad="19"/>
 <contactref element="JP1" pad="10"/>
 <wire x1="39.37" y1="19.05" x2="39.37" y2="21.59" width="0.4064" layer="1"/>
-<wire x1="45.72" y1="12.7" x2="39.37" y2="19.05" width="0.4064" layer="1"/>
+<wire x1="45.72" y1="12.7" x2="39.37" y2="19.05" width="0.254" layer="1"/>
+<contactref element="FDD1" pad="34"/>
 </signal>
 <signal name="WRITEDATA">
-<contactref element="JP2" pad="22"/>
 <contactref element="MS1" pad="25"/>
 <contactref element="JP1" pad="4"/>
 <wire x1="24.13" y1="21.59" x2="24.13" y2="19.05" width="0.4064" layer="1"/>
-<wire x1="24.13" y1="19.05" x2="30.48" y2="12.7" width="0.4064" layer="1"/>
+<wire x1="24.13" y1="19.05" x2="30.48" y2="12.7" width="0.254" layer="1"/>
+<contactref element="FDD1" pad="22"/>
 </signal>
 <signal name="WRITEGATE">
-<contactref element="JP2" pad="24"/>
 <contactref element="MS1" pad="24"/>
 <contactref element="JP1" pad="5"/>
 <wire x1="26.67" y1="21.59" x2="26.67" y2="19.05" width="0.4064" layer="1"/>
-<wire x1="26.67" y1="19.05" x2="33.02" y2="12.7" width="0.4064" layer="1"/>
+<wire x1="26.67" y1="19.05" x2="33.02" y2="12.7" width="0.254" layer="1"/>
+<contactref element="FDD1" pad="24"/>
 </signal>
 <signal name="PROT">
-<contactref element="JP2" pad="28"/>
 <contactref element="MS1" pad="22"/>
 <contactref element="JP1" pad="7"/>
 <wire x1="31.75" y1="21.59" x2="31.75" y2="19.05" width="0.4064" layer="1"/>
-<wire x1="31.75" y1="19.05" x2="38.1" y2="12.7" width="0.4064" layer="1"/>
+<wire x1="31.75" y1="19.05" x2="38.1" y2="12.7" width="0.254" layer="1"/>
+<contactref element="FDD1" pad="28"/>
+</signal>
+<signal name="3.3V">
+<contactref element="R1" pad="2"/>
+<contactref element="MS1" pad="2"/>
+<contactref element="JP3" pad="15"/>
+<wire x1="8.89" y1="1.27" x2="8.89" y2="3.81" width="0.4064" layer="1"/>
+<wire x1="39.055" y1="5.969" x2="37.084" y2="5.969" width="0.254" layer="1"/>
+<via x="37.084" y="5.969" extent="1-16" drill="0.5"/>
+<wire x1="37.084" y1="5.969" x2="9.525" y2="5.969" width="0.254" layer="16"/>
+<wire x1="8.89" y1="5.334" x2="8.89" y2="3.81" width="0.254" layer="16"/>
+<wire x1="9.525" y1="5.969" x2="8.89" y2="5.334" width="0.254" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -1093,30 +1122,6 @@ einem neuen Namen ab.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="5,16,0b0a3d52508f9ba3"/>
-<approved hash="19,16,325b0fe15ebb93a5"/>
-<approved hash="19,16,545d69dce3062e23"/>
-<approved hash="5,16,370b01690ab4c1a2"/>
-<approved hash="19,16,00573b66ced60543"/>
-</errors>
 </board>
 </drawing>
-<compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
-</note>
-</compatibility>
 </eagle>
